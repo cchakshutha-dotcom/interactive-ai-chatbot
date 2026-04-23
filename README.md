@@ -1,59 +1,16 @@
-# Interactive AI Chatbot
+# React + Vite
 
-A full-stack chatbot web application built using React (frontend) and Python (backend) to simulate real-time user interaction and automated responses.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
-- Real-time chat interface
-- User input handling and response generation
-- Interactive and responsive UI
-- Seamless communication between frontend and backend
+Currently, two official plugins are available:
 
-## 🛠️ Technologies Used
-- React
-- Vite
-- JavaScript
-- Python
-- Flask (if used)
-- HTML
-- CSS
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📂 Project Structure
-- frontend/ → React application
-- backend/ → Python chatbot logic
-- public/ → Static files
-- src/ → Main frontend code
+## React Compiler
 
-## ▶️ How to Run the Project
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Frontend:
-1. Navigate to frontend folder:
-   cd frontend
+## Expanding the ESLint configuration
 
-2. Install dependencies:
-   npm install
-
-3. Start development server:
-   npm run dev
-
----
-
-### Backend:
-1. Navigate to backend folder:
-   cd backend
-
-2. Install dependencies:
-   pip install -r requirements.txt
-
-3. Run server:
-   python app.py
-
----
-
-## 📌 Future Improvements
-- Integrate advanced AI models (NLP)
-- Add voice input/output
-- Store chat history
-- Improve UI/UX design
-
-## 👨‍💻 Author
-Chakshutha
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
